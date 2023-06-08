@@ -4,5 +4,5 @@ services:
     working_dir: /app
     container_name: test_container
     environment:
-      - TOKEN=5917620353:AAHJ1nHnrkyXDu1_FFkkoYblcRSGv8R_Tiw
+      - TOKEN=${TOKEN}
     command: python main.py
